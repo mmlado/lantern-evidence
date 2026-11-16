@@ -1,0 +1,3 @@
+native verify over 511 participants: true
+9 input decode only                      user_cycles=     3900152 ( 39.0% of 10M) segments=  4 exec=159ms result=512
+wrote ../results/bls-p1885-decode-n511.json

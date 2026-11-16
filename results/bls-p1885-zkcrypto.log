@@ -1,0 +1,15 @@
+native verify over 511 participants: true
+0 one pairing, generators                user_cycles=    16768489 (167.7% of 10M) segments= 17 exec=413ms result=1
+1 decompress 512 G1 keys                 user_cycles=   540672769 (5406.7% of 10M) segments=547 exec=11222ms result=512
+2 decompress + aggregate participants    user_cycles=   545216987 (5452.2% of 10M) segments=552 exec=11389ms result=511
+3 hash to G2                             user_cycles=     2777791 ( 27.8% of 10M) segments=  3 exec=112ms result=1
+4 full verify, compressed keys           user_cycles=   569328763 (5693.3% of 10M) segments=576 exec=12137ms result=1
+5 full verify, pre-aggregated, minus absent user_cycles=    26300618 (263.0% of 10M) segments= 27 exec=585ms result=1
+6 decompress G2 signature                user_cycles=     1490741 ( 14.9% of 10M) segments=  2 exec=91ms result=1
+7 pairing check only, 1 G1 decompress    user_cycles=    25238835 (252.4% of 10M) segments= 26 exec=585ms result=0
+8 as 7 without final exponentiation      user_cycles=    14296034 (143.0% of 10M) segments= 15 exec=378ms result=1
+10 witnessed 512 keys: on-curve, encoding, aggregate user_cycles=    18719490 (187.2% of 10M) segments= 19 exec=517ms result=511
+11 SSZ committee root, 513 keys, sha256  user_cycles=     5604275 ( 56.0% of 10M) segments=  6 exec=200ms result=2375758903
+12 witnessed G2 signature: on-curve, encoding user_cycles=    11444195 (114.4% of 10M) segments= 12 exec=359ms result=1
+13 full verify, witnessed G1 aggregate, compressed G2 user_cycles=    35567523 (355.7% of 10M) segments= 36 exec=886ms result=1
+wrote ../results/bls-p1885-zkcrypto.json

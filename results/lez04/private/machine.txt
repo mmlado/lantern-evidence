@@ -1,0 +1,23 @@
+snapshot 2026-11-11T12:16:49Z
+CPU(s):                                  16
+Model name:                              AMD Ryzen 7 5700X3D 8-Core Processor
+Thread(s) per core:                      2
+Core(s) per socket:                      8
+CPU(s) scaling MHz:                      93%
+CPU max MHz:                             4151.3838
+CPU min MHz:                             575.1920
+               total        used        free      shared  buff/cache   available
+Mem:              62          36           3           0          24          26
+ 13:16:49 up 3 days,  2:49,  1 user,  load average: 4.03, 2.15, 1.80
+top processes:
+%CPU %MEM COMMAND
+ 200  0.0 ps
+ 100  0.3 rustc
+99.6  0.7 rustc
+99.4  0.4 rustc
+23.5  0.0 bash
+ 4.9  2.5 WebExtensions
+ 3.6  0.3 cargo
+ 3.6  1.8 librewolf
+ 2.1  1.1 librewolf
+left running by choice: LibreWolf, dev04 sequencer pid 940199

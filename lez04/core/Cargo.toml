@@ -1,0 +1,11 @@
+[package]
+name = "lantern-spike-core"
+version = "0.1.0"
+edition = "2024"
+license = "MIT OR Apache-2.0"
+publish = false
+
+[dependencies]
+borsh = { version = "1.5.7", features = ["derive"] }
+lee_core = { git = "https://github.com/logos-blockchain/logos-execution-zone", rev = "bafd07be0701398f9bc435f73ab05e9a7936c301" }
+risc0-zkvm = { version = "3.0.5", default-features = false, features = ["std"] }

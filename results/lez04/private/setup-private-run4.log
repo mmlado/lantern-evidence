@@ -1,0 +1,84 @@
+preflight fresh: 508 signers, signing root f7638c2c904b3419
+Transaction hash is bbf032af83bc7077cbf95c978d5da4e6899c53589ca748233fd1642c6470e036
+Transaction is included in block 463
+Transaction hash is 993437f8ce865831ab06b40816f5cf027b6fd1389964039fac33f95599fd6beb
+Transaction is included in block 465
+Transaction hash is 43036e6c23efde00eaf10c7934c3bd934730841f6cfaff81a11e11dc39241386
+Transaction is included in block 467
+Transaction hash is fe798dabef3c995de0d6c625c2f86c4e5cfdf6042274cfbc2bd5d8fb2b53f4b4
+Transaction is included in block 469
+Transaction hash is ffd5ab6ffa950c8720b0e9f75d0573aee212306390012169ed6f16c231b3dc84
+Transaction is included in block 471
+Transaction hash is fabd3090a211a8a68a26fca02017ace81f6487cd1e7476b6891aef9fdb68b381
+Transaction is included in block 473
+Transaction hash is 5fdaea17e70436f4009aed0f8b93dd7cd6e4654e287cdc870dffaf6bef78aec0
+Transaction is included in block 475
+program  A9TFoxtyacUMsQpmcd5T34hhW4AikrB1mfNUsjn1fMaj, 6 segments, binary 538972 bytes
+== STEP fresh init: message 1249 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     102620
+  metered cycles:   82096
+  wire bytes:       1680
+  base fees:        exec 8 / stor 8 (height 476)
+  fee at head:      670208 (tip 0)
+  reserve at head:  834400 (max fee 1355900)
+  action:           applies
+   included in block 477, payer charged 670208
+== STEP fresh install half 1: message 24693 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     2812728
+  metered cycles:   2250182
+  wire bytes:       25124
+  base fees:        exec 8 / stor 8 (height 478)
+  fee at head:      18202448 (tip 0)
+  reserve at head:  22702816 (max fee 36892076)
+  action:           applies
+   included in block 479, payer charged 18202448
+== STEP fresh install half 2: message 24581 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     3446314
+  metered cycles:   2757051
+  wire bytes:       24979
+  base fees:        exec 8 / stor 8 (height 480)
+  fee at head:      22256240 (tip 0)
+  reserve at head:  27770344 (max fee 45126809)
+  action:           applies
+   included in block 481, payer charged 22256240
+== STEP fresh prepare: message 1459 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     3342434
+  metered cycles:   2673947
+  wire bytes:       2115
+  base fees:        exec 8 / stor 8 (height 482)
+  fee at head:      21408496 (tip 0)
+  reserve at head:  26756392 (max fee 43479137)
+  action:           applies
+   included in block 483, payer charged 21408496
+== STEP fresh miller: message 1 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     4098228
+  metered cycles:   3278582
+  wire bytes:       399
+  base fees:        exec 8 / stor 8 (height 484)
+  fee at head:      26231848 (tip 0)
+  reserve at head:  32789016 (max fee 53282151)
+  action:           applies
+   included in block 485, payer charged 26231848
+== STEP fresh finish: message 1 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     4555182
+  metered cycles:   3644145
+  wire bytes:       560
+  base fees:        exec 8 / stor 8 (height 487)
+  fee at head:      29157640 (tip 0)
+  reserve at head:  36445936 (max fee 59224646)
+  action:           applies
+   included in block 488, payer charged 29157640
+-- fresh instance: instance, state 354 bytes, head slot 15629568 block 26389914 beacon root 3669f1d3efb71b4c7104654e3f8daf076281bd8d6904a27c766561c12d485b06, current (1907, "36475a8ec0742784"), next None, window 14 days
+-- record 35EtChGmhPwmq7ZNhTp7wqsUr732AjG2c9QvErpfmFLK: 176 bytes, instance 9g6SGKqEdw6za6VVnSDvYZpmxT4E8xkcBXQGdsryLgbB, slot 15629568, block 26389914, execution state root ff37ebeb9c66b3293e1daf9ba1c8fa8b5eaca1ca3ddbca6088cc95193a30d349

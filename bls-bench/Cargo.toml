@@ -1,0 +1,23 @@
+[workspace]
+members = ["methods"]
+
+[package]
+name = "bls-bench"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bls-bench-methods = { path = "methods" }
+risc0-zkvm = "3.0.5"
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+hex = "0.4"
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+bls12_381 = { version = "0.8.0", features = ["experimental"] }
+sha2 = "0.9"
+group = "0.13"
+alloy-primitives = "0.8.15"
+alloy-rlp = { version = "0.3", features = ["derive"] }
+alloy-trie = "0.7.9"
+borsh = "1"

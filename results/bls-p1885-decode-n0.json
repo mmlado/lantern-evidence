@@ -1,0 +1,9 @@
+[
+  {
+    "label": "9 input decode only",
+    "user_cycles": 79047,
+    "segments": 1,
+    "exec_ms": 63.627794,
+    "result": 0
+  }
+]

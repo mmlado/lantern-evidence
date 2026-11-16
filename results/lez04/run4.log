@@ -1,0 +1,258 @@
+preflight 1885: 511 signers, signing root 0ff8cdc01e804c61
+preflight 1886: 510 signers, signing root d6467ce68c29ce71
+preflight ok: checkpoint, both committee roots, both updates verify natively; floor update has 342 signers
+Transaction hash is 06c0a6c21a897d528a9c24e2b25ea0dfb5ae6dffb1eac1f1ca66b9abc8b79374
+Transaction is included in block 409
+Transaction hash is 0607333bfc9557c509e4afc28cc5567f69ad46020e5bc435f5473046af4d67ab
+Transaction is included in block 411
+Transaction hash is 9824acdeb2de285941f063030714d82f2848494772e04abf316bd84a6b7cf477
+Transaction is included in block 413
+Transaction hash is ce08c007972f2f81a1f096071664b692b77ba9b94680b73fd4d05acc75c03f6d
+Transaction is included in block 415
+Transaction hash is d2b3ba94a5fef7b8c7afb9c8556b9d3d354fad2a94f5a7f3d99ad238c509d844
+Transaction is included in block 417
+Transaction hash is f994223ed788dc74bf5497ab6f6355682eecdf9878ea4542c84663f144b43b27
+Transaction is included in block 419
+Transaction hash is 2f1b90adf2237bca87c2e29a82c91bbdd814e9ced9db4e208a6363368331bc45
+Transaction is included in block 421
+program  GFG2jjHcYJoLVUKGzishhTKQZdTFPceFyQpKeMEhHVQv, 6 segments, binary 538972 bytes
+instance HKvgWRk6ioRuS3p3ap7q4vVHcA8mrWxZmcqNr4MvctH8, weak-subjectivity test instance Gk8NYK4QR6JfzkAbjQ2GtHrf2DvGjvZRHGR534eNT7Z5
+committees 1885 4ge2tMAur6HQ1LCoCkyLfYWwYYDggAQvPAnmFPLNq1YB, 1886 7FEFq3wcgLcDWqfMv2bA1a4c2iYaWcsPHPKeGJpk9z6Y, forged HYZi9eRVQGpbRqtGGLH5sR9QswNgj4ax6KTjKXSx8zbx
+== STEP init: message 1251 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     102975
+  metered cycles:   82380
+  wire bytes:       1682
+  base fees:        exec 8 / stor 8 (height 422)
+  fee at head:      672496 (tip 0)
+  reserve at head:  837256 (max fee 1360541)
+  action:           applies
+   included in block 423, payer charged 672496
+== STEP init, 14-day window: message 1251 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     102975
+  metered cycles:   82380
+  wire bytes:       1682
+  base fees:        exec 8 / stor 8 (height 424)
+  fee at head:      672496 (tip 0)
+  reserve at head:  837256 (max fee 1360541)
+  action:           applies
+   included in block 425, payer charged 672496
+-- after init: instance, state 354 bytes, head slot 15441920 block 26202880 beacon root df54b5b0439db089e4114f82481e2f0fb610224715bd7f2507644ef9a0014205, current (1885, "37349b8decb9745e"), next None, window 90 days
+== STEP 1885 install half 1: message 24693 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     2812728
+  metered cycles:   2250182
+  wire bytes:       25124
+  base fees:        exec 8 / stor 8 (height 426)
+  fee at head:      18202448 (tip 0)
+  reserve at head:  22702816 (max fee 36892076)
+  action:           applies
+   included in block 427, payer charged 18202448
+== STEP 1885 install half 2: message 24581 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     3446314
+  metered cycles:   2757051
+  wire bytes:       24979
+  base fees:        exec 8 / stor 8 (height 428)
+  fee at head:      22256240 (tip 0)
+  reserve at head:  27770344 (max fee 45126809)
+  action:           applies
+   included in block 429, payer charged 22256240
+-- 1885 committee: committee, state 49285 bytes, root 37349b8decb9745e, 512 keys
+== STEP forged 1886 half 1 (must revert): message 24693 bytes
+R0VM[1968644] first half does not match the committee root
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     2464003
+  metered cycles:   1971202
+  wire bytes:       25124
+  base fees:        exec 8 / stor 8 (height 430)
+  fee at head:      15970608 (tip 0)
+  reserve at head:  19913016 (max fee 32358651)
+  action REVERTS:   Program exited with non-zero code 10 after 1971202 cycles (fee is still charged)
+R0VM[1968644] first half does not match the committee root
+   included in block 431, payer charged 15970608
+== STEP 1886 install half 1: message 24693 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     2812728
+  metered cycles:   2250182
+  wire bytes:       25124
+  base fees:        exec 8 / stor 8 (height 432)
+  fee at head:      18202448 (tip 0)
+  reserve at head:  22702816 (max fee 36892076)
+  action:           applies
+   included in block 433, payer charged 18202448
+-- 1886 committee, half staged: staging, state 24741 bytes, root 06286a6371e1ed4c, 256 keys
+== STEP floor prepare (342 signers): message 1657 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     4684845
+  metered cycles:   3747876
+  wire bytes:       2216
+  base fees:        exec 8 / stor 8 (height 434)
+  fee at head:      30000736 (tip 0)
+  reserve at head:  37496488 (max fee 60931793)
+  action:           applies
+   included in block 435, payer charged 30000736
+== STEP floor miller: message 1 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     4098412
+  metered cycles:   3278729
+  wire bytes:       399
+  base fees:        exec 8 / stor 8 (height 436)
+  fee at head:      26233024 (tip 0)
+  reserve at head:  32790488 (max fee 53284543)
+  action:           applies
+   included in block 437, payer charged 26233024
+== STEP floor finish (must revert): message 1 bytes
+R0VM[3596978] sync committee signature does not verify
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     4499420
+  metered cycles:   3599536
+  wire bytes:       463
+  base fees:        exec 8 / stor 8 (height 438)
+  fee at head:      28799992 (tip 0)
+  reserve at head:  35999064 (max fee 58498479)
+  action REVERTS:   Program exited with non-zero code 11 after 3599536 cycles (fee is still charged)
+R0VM[3596978] sync committee signature does not verify
+   included in block 439, payer charged 28799992
+== STEP prepare naming another instance as its job (must revert): message 1657 bytes
+R0VM[13078] job actor already holds state
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     3318995
+  metered cycles:   2655196
+  wire bytes:       2183
+  base fees:        exec 8 / stor 8 (height 440)
+  fee at head:      21259032 (tip 0)
+  reserve at head:  26569424 (max fee 43175314)
+  action REVERTS:   Program exited with non-zero code 15 after 15636 cycles (fee is still charged)
+R0VM[13078] job actor already holds state
+   included in block 441, payer charged 21259032
+== STEP 1885 prepare: message 1657 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     3328409
+  metered cycles:   2662727
+  wire bytes:       2216
+  base fees:        exec 8 / stor 8 (height 442)
+  fee at head:      21319544 (tip 0)
+  reserve at head:  26645000 (max fee 43298125)
+  action:           applies
+   included in block 443, payer charged 21319544
+== STEP 1885 miller: message 1 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     4098412
+  metered cycles:   3278729
+  wire bytes:       399
+  base fees:        exec 8 / stor 8 (height 444)
+  fee at head:      26233024 (tip 0)
+  reserve at head:  32790488 (max fee 53284543)
+  action:           applies
+   included in block 445, payer charged 26233024
+== STEP 1885 finish: message 1 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     4537855
+  metered cycles:   3630284
+  wire bytes:       463
+  base fees:        exec 8 / stor 8 (height 446)
+  fee at head:      29045976 (tip 0)
+  reserve at head:  36306544 (max fee 58998134)
+  action:           applies
+   included in block 447, payer charged 29045976
+-- after the 1885 update: instance, state 394 bytes, head slot 15441920 block 26202880 beacon root df54b5b0439db089e4114f82481e2f0fb610224715bd7f2507644ef9a0014205, current (1885, "37349b8decb9745e"), next Some((1886, "06286a6371e1ed4c")), window 90 days
+== STEP 1886 install half 2: message 24581 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     3446314
+  metered cycles:   2757051
+  wire bytes:       24979
+  base fees:        exec 8 / stor 8 (height 448)
+  fee at head:      22256240 (tip 0)
+  reserve at head:  27770344 (max fee 45126809)
+  action:           applies
+   included in block 449, payer charged 22256240
+-- 1886 committee: committee, state 49285 bytes, root 06286a6371e1ed4c, 512 keys
+-- after the 1886 install, which leaves the instance alone: instance, state 394 bytes, head slot 15441920 block 26202880 beacon root df54b5b0439db089e4114f82481e2f0fb610224715bd7f2507644ef9a0014205, current (1885, "37349b8decb9745e"), next Some((1886, "06286a6371e1ed4c")), window 90 days
+== STEP duplicate 1885 prepare (must revert): message 1657 bytes
+R0VM[92883] stale or duplicate update
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     119302
+  metered cycles:   95441
+  wire bytes:       2183
+  base fees:        exec 8 / stor 8 (height 450)
+  fee at head:      780992 (tip 0)
+  reserve at head:  971880 (max fee 1579305)
+  action REVERTS:   Program exited with non-zero code 12 after 95441 cycles (fee is still charged)
+R0VM[92883] stale or duplicate update
+   included in block 451, payer charged 780992
+== STEP miller on a finished job (must revert): message 1 bytes
+R0VM[4301] not a job
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     8574
+  metered cycles:   6859
+  wire bytes:       399
+  base fees:        exec 8 / stor 8 (height 452)
+  fee at head:      58064 (tip 0)
+  reserve at head:  71784 (max fee 116649)
+  action REVERTS:   Program exited with non-zero code 15 after 6859 cycles (fee is still charged)
+R0VM[4301] not a job
+   included in block 453, payer charged 58064
+== STEP 1886 prepare: message 1655 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     3337038
+  metered cycles:   2669630
+  wire bytes:       2214
+  base fees:        exec 8 / stor 8 (height 454)
+  fee at head:      21374752 (tip 0)
+  reserve at head:  26714016 (max fee 43410276)
+  action:           applies
+   included in block 455, payer charged 21374752
+== STEP 1886 miller: message 1 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     4098412
+  metered cycles:   3278729
+  wire bytes:       399
+  base fees:        exec 8 / stor 8 (height 456)
+  fee at head:      26233024 (tip 0)
+  reserve at head:  32790488 (max fee 53284543)
+  action:           applies
+   included in block 457, payer charged 26233024
+== STEP 1886 finish: message 1 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     4538712
+  metered cycles:   3630969
+  wire bytes:       463
+  base fees:        exec 8 / stor 8 (height 458)
+  fee at head:      29051456 (tip 0)
+  reserve at head:  36313400 (max fee 59009275)
+  action:           applies
+   included in block 459, payer charged 29051456
+-- after the 1886 update: instance, state 394 bytes, head slot 15450112 block 26211052 beacon root 44d5cf3ea4de47f80a300df272afa97b75c218ecefa4f7d87f83d085c41d80e1, current (1886, "06286a6371e1ed4c"), next Some((1887, "ca089f2cf90ee285")), window 90 days
+== STEP 1885 prepare past the 14-day window (must revert): message 1657 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     3328407
+  metered cycles:   2662725
+  wire bytes:       2216
+  base fees:        exec 8 / stor 8 (height 460)
+  fee at head:      21319528 (tip 0)
+  reserve at head:  26644984 (max fee 43298099)
+  action:           applies
+   included in block 461, payer charged 26644984
+-- 14-day instance: instance, state 354 bytes, head slot 15441920 block 26202880 beacon root df54b5b0439db089e4114f82481e2f0fb610224715bd7f2507644ef9a0014205, current (1885, "37349b8decb9745e"), next None, window 14 days

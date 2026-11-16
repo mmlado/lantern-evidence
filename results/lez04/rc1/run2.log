@@ -1,0 +1,176 @@
+preflight 1885: 511 signers, signing root 0ff8cdc01e804c61
+preflight 1886: 510 signers, signing root d6467ce68c29ce71
+preflight ok: checkpoint, both committee roots, both updates verify natively; floor update has 342 signers
+Transaction hash is 6cddc3285e5f5e7fce1d9a0e77602ffb5d7a1b2e7d3a1abeb074ed25f0b8b30f
+Transaction is included in block 94
+Transaction hash is 1b4aaffd015f815c29b9859f203fc98901b8bf8a33b7f02123ffe1ed36aff8cb
+Transaction is included in block 96
+Transaction hash is 1f7a01c07f576701fc8783b0b5398c3bca3a1b50be1c0fe0488a44f4733598fe
+Transaction is included in block 98
+Transaction hash is acfab0c0c4e4497310e0be8a11c5269b33589cc207d4e581a1c57aceafd8f5f2
+Transaction is included in block 100
+Transaction hash is b259f5f83c445d3d75975c829d6d3c33f441d3c60ff36987ce9353ab35397ccb
+Transaction is included in block 102
+Transaction hash is 79807b9b49d0b17311eec4955a9593d9a0c129f60221bb64893bda4676782363
+Transaction is included in block 104
+Transaction hash is 3f641418276747da4062a99b4c06a4b5ea6c25d7615f67aa66804dc437125b30
+Transaction is included in block 106
+program  7q2snMm91gQTLANJ9ZN8wjrJLDYwBMePK5BbxToiuJL7, 6 segments, binary 527468 bytes
+instance 3LwDjHLXkRrbqnJVNSqnF52NfUtMJVRs9uBN8Gp8eWNG
+jobs     floor 7SmfgEKsfZgjRa87ZX1uqkV9TpdHT1pWnHZNG7RY1TiY, 1885 HMDRjoS4MwDPixx1kRHvkB7o9VXzLuvBcjpik3Gi6yo, 1886 BiegxDM3ydcBMJAgQc8wgj3djX8AhJ7AwARJ3LcenT85
+== STEP init: message 1235 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     10000000
+  metered cycles:   81313
+  wire bytes:       1666
+  base fees:        exec 8 / stor 8 (height 107)
+  fee at head:      663832 (tip 0)
+  action:           applies
+   included in block 108, payer charged 663832
+== STEP 1885 install half 1: message 24582 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     10000000
+  metered cycles:   2186067
+  wire bytes:       24980
+  base fees:        exec 8 / stor 8 (height 109)
+  fee at head:      17688376 (tip 0)
+  action:           applies
+   included in block 110, payer charged 17688376
+== STEP 1885 install half 2: message 24630 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     10000000
+  metered cycles:   2747394
+  wire bytes:       25028
+  base fees:        exec 8 / stor 8 (height 111)
+  fee at head:      22179376 (tip 0)
+  action:           applies
+   included in block 112, payer charged 22179376
+-- after installing 1885: state 49526 bytes, head slot 15441920 block 26202880 beacon root df54b5b0439db089e4114f82481e2f0fb610224715bd7f2507644ef9a0014205, committee period 1885 (512 keys), next None, install None
+== STEP floor prepare (342 signers): message 1625 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     10000000
+  metered cycles:   3653217
+  wire bytes:       2120
+  base fees:        exec 8 / stor 8 (height 113)
+  fee at head:      29242696 (tip 0)
+  action:           applies
+   included in block 114, payer charged 29242696
+== STEP floor miller: message 1 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     10000000
+  metered cycles:   3276797
+  wire bytes:       399
+  base fees:        exec 8 / stor 8 (height 115)
+  fee at head:      26217568 (tip 0)
+  action:           applies
+   included in block 116, payer charged 26217568
+== STEP floor finish (must revert): message 1 bytes
+R0VM[3594913] sync committee signature does not verify
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     10000000
+  metered cycles:   3597471
+  wire bytes:       463
+  base fees:        exec 8 / stor 8 (height 117)
+  fee at head:      28783472 (tip 0)
+  action REVERTS:   Program exited with non-zero code 11 after 3597471 cycles (fee is still charged)
+   included in block 118, payer charged 28783472
+== STEP 1885 prepare: message 1625 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     10000000
+  metered cycles:   2567561
+  wire bytes:       2120
+  base fees:        exec 8 / stor 8 (height 119)
+  fee at head:      20557448 (tip 0)
+  action:           applies
+   included in block 120, payer charged 20557448
+== STEP 1885 miller: message 1 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     10000000
+  metered cycles:   3276797
+  wire bytes:       399
+  base fees:        exec 8 / stor 8 (height 121)
+  fee at head:      26217568 (tip 0)
+  action:           applies
+   included in block 122, payer charged 26217568
+== STEP 1885 finish: message 1 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     10000000
+  metered cycles:   4581029
+  wire bytes:       463
+  base fees:        exec 8 / stor 8 (height 123)
+  fee at head:      36651936 (tip 0)
+  action:           applies
+   included in block 124, payer charged 36651936
+-- after the 1885 update: state 49611 bytes, head slot 15441920 block 26202880 beacon root df54b5b0439db089e4114f82481e2f0fb610224715bd7f2507644ef9a0014205, committee period 1885 (512 keys), next Some((1886, "06286a6371e1ed4c")), install Some((1886, 0, false))
+== STEP duplicate 1885 prepare (must revert): message 1625 bytes
+R0VM[690549] stale or duplicate update
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     10000000
+  metered cycles:   693107
+  wire bytes:       2087
+  base fees:        exec 8 / stor 8 (height 125)
+  fee at head:      5561552 (tip 0)
+  action REVERTS:   Program exited with non-zero code 12 after 693107 cycles (fee is still charged)
+   included in block 126, payer charged 5561552
+== STEP 1886 install half 1: message 24582 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     10000000
+  metered cycles:   3129956
+  wire bytes:       24980
+  base fees:        exec 8 / stor 8 (height 127)
+  fee at head:      25239488 (tip 0)
+  action:           applies
+   included in block 128, payer charged 25239488
+== STEP 1886 install half 2: message 24630 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     10000000
+  metered cycles:   3472596
+  wire bytes:       25028
+  base fees:        exec 8 / stor 8 (height 129)
+  fee at head:      27980992 (tip 0)
+  action:           applies
+   included in block 130, payer charged 27980992
+-- after the handoff to 1886: state 49566 bytes, head slot 15441920 block 26202880 beacon root df54b5b0439db089e4114f82481e2f0fb610224715bd7f2507644ef9a0014205, committee period 1886 (512 keys), next Some((1886, "06286a6371e1ed4c")), install None
+== STEP 1886 prepare: message 1623 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     10000000
+  metered cycles:   2573867
+  wire bytes:       2118
+  base fees:        exec 8 / stor 8 (height 131)
+  fee at head:      20607880 (tip 0)
+  action:           applies
+   included in block 132, payer charged 20607880
+== STEP 1886 miller: message 1 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     10000000
+  metered cycles:   3276797
+  wire bytes:       399
+  base fees:        exec 8 / stor 8 (height 133)
+  fee at head:      26217568 (tip 0)
+  action:           applies
+   included in block 134, payer charged 26217568
+== STEP 1886 finish: message 1 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     10000000
+  metered cycles:   4581608
+  wire bytes:       463
+  base fees:        exec 8 / stor 8 (height 135)
+  fee at head:      36656568 (tip 0)
+  action:           applies
+   included in block 136, payer charged 36656568
+-- after the 1886 update: state 49611 bytes, head slot 15450112 block 26211052 beacon root 44d5cf3ea4de47f80a300df272afa97b75c218ecefa4f7d87f83d085c41d80e1, committee period 1886 (512 keys), next Some((1887, "ca089f2cf90ee285")), install Some((1887, 0, false))

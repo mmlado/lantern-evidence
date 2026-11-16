@@ -1,0 +1,16 @@
+start 2026-11-11T17:58:30Z
+consume: message 7057 bytes, account proof 9 nodes, storage proof 7 nodes
+Latest block is 1532
+Syncing to block 1532. Blocks to sync: 400
+Synced to block 1532 in 1.428792953s
+Dry run: nothing proven or sent
+  public cycles:  14062
+  base fees:      exec 8 / stor 8 (height 1532)
+  fee at head:    5183112
+  headroom:       5 blocks, up to exec 13 / stor 13 (8422557)
+  reserve:        8422557 (surplus refunded)
+  fee payer:      DvQmcNPm4FfsAEehkgvhKHyjPhbVDrwYQZDdpH3QN2m7
+  claims:         1 pending credit(s), 3239480 to the payer
+  refund to:      the payer's alias
+exit 0
+end 2026-11-11T17:58:32Z

@@ -1,0 +1,93 @@
+[
+  {
+    "label": "0 one pairing, generators",
+    "user_cycles": 16768489,
+    "segments": 17,
+    "exec_ms": 413.474007,
+    "result": 1
+  },
+  {
+    "label": "1 decompress 512 G1 keys",
+    "user_cycles": 540672769,
+    "segments": 547,
+    "exec_ms": 11222.453672,
+    "result": 512
+  },
+  {
+    "label": "2 decompress + aggregate participants",
+    "user_cycles": 545216987,
+    "segments": 552,
+    "exec_ms": 11388.681883000001,
+    "result": 511
+  },
+  {
+    "label": "3 hash to G2",
+    "user_cycles": 2777791,
+    "segments": 3,
+    "exec_ms": 112.15728399999999,
+    "result": 1
+  },
+  {
+    "label": "4 full verify, compressed keys",
+    "user_cycles": 569328763,
+    "segments": 576,
+    "exec_ms": 12136.511290999999,
+    "result": 1
+  },
+  {
+    "label": "5 full verify, pre-aggregated, minus absent",
+    "user_cycles": 26300618,
+    "segments": 27,
+    "exec_ms": 585.025051,
+    "result": 1
+  },
+  {
+    "label": "6 decompress G2 signature",
+    "user_cycles": 1490741,
+    "segments": 2,
+    "exec_ms": 90.519595,
+    "result": 1
+  },
+  {
+    "label": "7 pairing check only, 1 G1 decompress",
+    "user_cycles": 25238835,
+    "segments": 26,
+    "exec_ms": 584.9944019999999,
+    "result": 0
+  },
+  {
+    "label": "8 as 7 without final exponentiation",
+    "user_cycles": 14296034,
+    "segments": 15,
+    "exec_ms": 377.676235,
+    "result": 1
+  },
+  {
+    "label": "10 witnessed 512 keys: on-curve, encoding, aggregate",
+    "user_cycles": 18719490,
+    "segments": 19,
+    "exec_ms": 516.684944,
+    "result": 511
+  },
+  {
+    "label": "11 SSZ committee root, 513 keys, sha256",
+    "user_cycles": 5604275,
+    "segments": 6,
+    "exec_ms": 200.015523,
+    "result": 2375758903
+  },
+  {
+    "label": "12 witnessed G2 signature: on-curve, encoding",
+    "user_cycles": 11444195,
+    "segments": 12,
+    "exec_ms": 359.37456499999996,
+    "result": 1
+  },
+  {
+    "label": "13 full verify, witnessed G1 aggregate, compressed G2",
+    "user_cycles": 35567523,
+    "segments": 36,
+    "exec_ms": 886.440481,
+    "result": 1
+  }
+]

@@ -1,0 +1,16 @@
+native verify over 511 participants: true
+20 blst: full verify, pre-aggregated, compressed aggregate and absent user_cycles=    12141928 (121.4% of 10M) segments= 13 exec=349ms result=1
+21 blst: full verify, witnessed aggregate and absent user_cycles=    19493582 (194.9% of 10M) segments= 20 exec=503ms result=1
+22 blst: signature check only, full-committee aggregate (expect 0) user_cycles=    12034183 (120.3% of 10M) segments= 13 exec=366ms result=0
+23 blst: witnessed 512 keys, on-curve, encoding, aggregate user_cycles=    17734507 (177.3% of 10M) segments= 18 exec=449ms result=511
+24 blst: decompress n keys               user_cycles=    54248021 (542.5% of 10M) segments= 54 exec=1447ms result=512
+25 blst: uncompress one G1 key           user_cycles=      178239 (  1.8% of 10M) segments=  1 exec=40ms result=1
+26 blst: signature uncompress and subgroup check user_cycles=      678414 (  6.8% of 10M) segments=  1 exec=52ms result=1
+27 blst: hash to G2                      user_cycles=     1402600 ( 14.0% of 10M) segments=  2 exec=71ms result=1
+28 blst: decode, hash, two Miller loops and product, no final exponentiation user_cycles=     6546987 ( 65.5% of 10M) segments=  7 exec=206ms result=1
+29 blst: op 28 plus the final exponentiation (expect 0, full-committee aggregate) user_cycles=    10823662 (108.2% of 10M) segments= 11 exec=295ms result=0
+30 blst: op 28 without the Miller loops  user_cycles=     1707903 ( 17.1% of 10M) segments=  2 exec=78ms result=1
+31 blst: signature uncompress, no subgroup check user_cycles=      280144 (  2.8% of 10M) segments=  1 exec=42ms result=1
+32 blst: op 30 plus one combined Miller loop over both pairs user_cycles=     5547007 ( 55.5% of 10M) segments=  6 exec=181ms result=1
+33 blst: full verify, pre-aggregated minus absent, combined Miller loop user_cycles=    10329868 (103.3% of 10M) segments= 11 exec=291ms result=1
+wrote ../results/bls-p1885-blst.json

@@ -1,0 +1,88 @@
+start 2026-11-11T17:46:54Z
+preflight fresh: 508 signers, signing root f7638c2c904b3419
+Transaction hash is f719a925e9aeba8432b4df3e8aceca9c4139b77c8c2ca4d335278130f566a06a
+Transaction is included in block 1487
+Transaction hash is 8bd2b9221d3f3d59e0ebaa7a22b2974cc204d2c0a7c9015a0e89495a56c80e9e
+Transaction is included in block 1489
+Transaction hash is 8cb59892bb366997a444161a1a0ac0cb5c6573eca38cc00f2dcf79e639fd0095
+Transaction is included in block 1491
+Transaction hash is 53bbb5bc991ffcf141e52f93b3e0f111f06c292455ed1f0845ed05879750ea4d
+Transaction is included in block 1493
+Transaction hash is e1c32d17113abbcecf48b37d19a3fed787a526d911dcbf9c17cd3ee9c351d1f7
+Transaction is included in block 1495
+Transaction hash is 2bb88435b15d40507229106cd6888c4fcfb5e1a593b583676f54a96ba4c9a767
+Transaction is included in block 1497
+Transaction hash is a811d7a9bc5225f29fb97dc91e8f4c17014a5d50c22d956f8627f101f3d6686a
+Transaction is included in block 1499
+program  2H2bpGB8cHe7nhAU3DqAcLZ7tNi6JCanfFEnGeKoDLBR, 6 segments, binary 540920 bytes
+instance JEehqnuWst2hzjj8BXTxHL5oP7f3VruL8giR9Jyb7Dy, committee HaPXaa7F7ikFSTJZGr1YFpVm6Rh9L8huNk2AkwXPMV9j, job 8rMNSgt2qWofe14cDcM1A7raYDktaf7MvLRS52VarMJN, record 5HRE1577kbqSqf6KxhzJCXKH5D99F4tASniByQXCzJo6
+== STEP fresh init: message 1249 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     102742
+  metered cycles:   82193
+  wire bytes:       1823
+  base fees:        exec 8 / stor 8 (height 1500)
+  fee at head:      672128 (tip 0)
+  reserve at head:  836520 (max fee 1359345)
+  action:           applies
+   included in block 1501, payer charged 672128
+== STEP fresh install half 1: message 24693 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     2812773
+  metered cycles:   2250218
+  wire bytes:       25267
+  base fees:        exec 8 / stor 8 (height 1502)
+  fee at head:      18203880 (tip 0)
+  reserve at head:  22704320 (max fee 36894520)
+  action:           applies
+   included in block 1503, payer charged 18203880
+== STEP fresh install half 2: message 24581 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     3446350
+  metered cycles:   2757080
+  wire bytes:       24979
+  base fees:        exec 8 / stor 8 (height 1504)
+  fee at head:      22256472 (tip 0)
+  reserve at head:  27770632 (max fee 45127277)
+  action:           applies
+   included in block 1505, payer charged 22256472
+== STEP fresh prepare: message 1459 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     3342579
+  metered cycles:   2674063
+  wire bytes:       2161
+  base fees:        exec 8 / stor 8 (height 1506)
+  fee at head:      21409792 (tip 0)
+  reserve at head:  26757920 (max fee 43481620)
+  action:           applies
+   included in block 1507, payer charged 21409792
+== STEP fresh miller: message 1 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     4098252
+  metered cycles:   3278601
+  wire bytes:       399
+  base fees:        exec 8 / stor 8 (height 1508)
+  fee at head:      26232000 (tip 0)
+  reserve at head:  32789208 (max fee 53282463)
+  action:           applies
+   included in block 1509, payer charged 26232000
+== STEP fresh finish: message 1 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     4561287
+  metered cycles:   3649029
+  wire bytes:       703
+  base fees:        exec 8 / stor 8 (height 1510)
+  fee at head:      29197856 (tip 0)
+  reserve at head:  36495920 (max fee 59305870)
+  action:           applies
+   included in block 1511, payer charged 29197856
+-- fresh instance: instance, state 354 bytes, head slot 15629568 block 26389914 beacon root 3669f1d3efb71b4c7104654e3f8daf076281bd8d6904a27c766561c12d485b06, current (1907, "36475a8ec0742784"), next None, window 1209600 s
+-- record 5HRE1577kbqSqf6KxhzJCXKH5D99F4tASniByQXCzJo6: 176 bytes, instance JEehqnuWst2hzjj8BXTxHL5oP7f3VruL8giR9Jyb7Dy, slot 15629568, block 26389914, execution state root ff37ebeb9c66b3293e1daf9ba1c8fa8b5eaca1ca3ddbca6088cc95193a30d349
+exit 0
+end 2026-11-11T17:53:27Z

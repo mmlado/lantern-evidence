@@ -1,0 +1,3 @@
+native verify over 511 participants: true
+9 input decode only                      user_cycles=       79047 (  0.8% of 10M) segments=  1 exec=64ms result=0
+wrote ../results/bls-p1885-decode-n0.json

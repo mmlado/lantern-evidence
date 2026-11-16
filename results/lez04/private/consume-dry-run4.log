@@ -1,0 +1,13 @@
+consume: message 7057 bytes, account proof 9 nodes, storage proof 7 nodes
+Latest block is 489
+Syncing to block 489. Blocks to sync: 134
+Synced to block 489 in 370.80075ms
+Dry run: nothing proven or sent
+  public cycles:  14029
+  base fees:      exec 8 / stor 8 (height 489)
+  fee at head:    5182848
+  headroom:       5 blocks, up to exec 13 / stor 13 (8422128)
+  reserve:        8422128 (surplus refunded)
+  fee payer:      DvQmcNPm4FfsAEehkgvhKHyjPhbVDrwYQZDdpH3QN2m7
+  claims:         1 pending credit(s), 3239480 to the payer
+  refund to:      the payer's alias

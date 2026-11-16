@@ -1,0 +1,16 @@
+[
+  {
+    "label": "account proof, 9 nodes",
+    "user_cycles": 716365,
+    "segments": 1,
+    "exec_ms": 46.944536,
+    "result": 1
+  },
+  {
+    "label": "storage proof, 7 nodes",
+    "user_cycles": 555072,
+    "segments": 1,
+    "exec_ms": 41.255713,
+    "result": 1
+  }
+]

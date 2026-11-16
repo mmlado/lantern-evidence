@@ -1,0 +1,87 @@
+start 2026-11-11T16:07:41Z
+preflight fresh: 508 signers, signing root f7638c2c904b3419
+Transaction hash is c4b798883c7cb5c90099c810724c70c9734ddcf32efc9689735d3f59a35d5645
+Transaction is included in block 1091
+Transaction hash is be46d7b9196ce5a6305f2fc7c7718ad9e0b06ed932ddb3c30d0d04ce871a1017
+Transaction is included in block 1093
+Transaction hash is d708d7ffee5378ec544dd89230a39e326c2884cad0dfa26b667fe12ac4c0e646
+Transaction is included in block 1095
+Transaction hash is bb0d07aa64397fbf1f185ffaf32cc0a27c7e373d3ae2d6aaf5c4e1ee370e7c5b
+Transaction is included in block 1097
+Transaction hash is d6c3d872691c3d665aae7a4fe1722fd6709be577d7b2651090a0a38c9edcab67
+Transaction is included in block 1099
+Transaction hash is 053b3ecd13f0286bb5c6115d9f8c0de2649917307c8686fe2f44155fb1a23b0c
+Transaction is included in block 1101
+Transaction hash is 896072f6593c86ace864fa9bbdb288365ce18906e16d1b59b57ba721f0d66888
+Transaction is included in block 1103
+program  58nHKVwF65s4fsgEFE5skqT8S9vwojGR9nazSnfph4AT, 6 segments, binary 540760 bytes
+== STEP fresh init: message 1249 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     102742
+  metered cycles:   82193
+  wire bytes:       1823
+  base fees:        exec 8 / stor 8 (height 1104)
+  fee at head:      672128 (tip 0)
+  reserve at head:  836520 (max fee 1359345)
+  action:           applies
+   included in block 1105, payer charged 672128
+== STEP fresh install half 1: message 24693 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     2812773
+  metered cycles:   2250218
+  wire bytes:       25267
+  base fees:        exec 8 / stor 8 (height 1106)
+  fee at head:      18203880 (tip 0)
+  reserve at head:  22704320 (max fee 36894520)
+  action:           applies
+   included in block 1107, payer charged 18203880
+== STEP fresh install half 2: message 24581 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     3446350
+  metered cycles:   2757080
+  wire bytes:       24979
+  base fees:        exec 8 / stor 8 (height 1108)
+  fee at head:      22256472 (tip 0)
+  reserve at head:  27770632 (max fee 45127277)
+  action:           applies
+   included in block 1109, payer charged 22256472
+== STEP fresh prepare: message 1459 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     3342579
+  metered cycles:   2674063
+  wire bytes:       2161
+  base fees:        exec 8 / stor 8 (height 1110)
+  fee at head:      21409792 (tip 0)
+  reserve at head:  26757920 (max fee 43481620)
+  action:           applies
+   included in block 1111, payer charged 21409792
+== STEP fresh miller: message 1 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     4098252
+  metered cycles:   3278601
+  wire bytes:       399
+  base fees:        exec 8 / stor 8 (height 1112)
+  fee at head:      26232000 (tip 0)
+  reserve at head:  32789208 (max fee 53282463)
+  action:           applies
+   included in block 1113, payer charged 26232000
+== STEP fresh finish: message 1 bytes
+Dry run: nothing sent
+  fee payer:        CbgR6tj5kWx5oziiFptM7jMvrQeYY3Mzaao6ciuhSr2r
+  declared gas:     4561287
+  metered cycles:   3649029
+  wire bytes:       703
+  base fees:        exec 8 / stor 8 (height 1114)
+  fee at head:      29197856 (tip 0)
+  reserve at head:  36495920 (max fee 59305870)
+  action:           applies
+   included in block 1115, payer charged 29197856
+-- fresh instance: instance, state 354 bytes, head slot 15629568 block 26389914 beacon root 3669f1d3efb71b4c7104654e3f8daf076281bd8d6904a27c766561c12d485b06, current (1907, "36475a8ec0742784"), next None, window 1209600 s
+-- record 81JH9btVh3h87hMxQudsyhSHBfnZEeSPvEXcHgh9MaeJ: 176 bytes, instance BJN2M54zx6z53nFaU22fXcAg8YVimS7N8zyMNKTomcbM, slot 15629568, block 26389914, execution state root ff37ebeb9c66b3293e1daf9ba1c8fa8b5eaca1ca3ddbca6088cc95193a30d349
+exit 0
+end 2026-11-11T16:14:14Z

@@ -1,0 +1,100 @@
+[
+  {
+    "label": "20 blst: full verify, pre-aggregated, compressed aggregate and absent",
+    "user_cycles": 12141928,
+    "segments": 13,
+    "exec_ms": 349.45135100000005,
+    "result": 1
+  },
+  {
+    "label": "21 blst: full verify, witnessed aggregate and absent",
+    "user_cycles": 19493582,
+    "segments": 20,
+    "exec_ms": 503.07036800000003,
+    "result": 1
+  },
+  {
+    "label": "22 blst: signature check only, full-committee aggregate (expect 0)",
+    "user_cycles": 12034183,
+    "segments": 13,
+    "exec_ms": 365.839878,
+    "result": 0
+  },
+  {
+    "label": "23 blst: witnessed 512 keys, on-curve, encoding, aggregate",
+    "user_cycles": 17734507,
+    "segments": 18,
+    "exec_ms": 449.400412,
+    "result": 511
+  },
+  {
+    "label": "24 blst: decompress n keys",
+    "user_cycles": 54248021,
+    "segments": 54,
+    "exec_ms": 1447.18947,
+    "result": 512
+  },
+  {
+    "label": "25 blst: uncompress one G1 key",
+    "user_cycles": 178239,
+    "segments": 1,
+    "exec_ms": 39.878675,
+    "result": 1
+  },
+  {
+    "label": "26 blst: signature uncompress and subgroup check",
+    "user_cycles": 678414,
+    "segments": 1,
+    "exec_ms": 52.422576,
+    "result": 1
+  },
+  {
+    "label": "27 blst: hash to G2",
+    "user_cycles": 1402600,
+    "segments": 2,
+    "exec_ms": 70.55692900000001,
+    "result": 1
+  },
+  {
+    "label": "28 blst: decode, hash, two Miller loops and product, no final exponentiation",
+    "user_cycles": 6546987,
+    "segments": 7,
+    "exec_ms": 205.905313,
+    "result": 1
+  },
+  {
+    "label": "29 blst: op 28 plus the final exponentiation (expect 0, full-committee aggregate)",
+    "user_cycles": 10823662,
+    "segments": 11,
+    "exec_ms": 295.199481,
+    "result": 0
+  },
+  {
+    "label": "30 blst: op 28 without the Miller loops",
+    "user_cycles": 1707903,
+    "segments": 2,
+    "exec_ms": 77.564513,
+    "result": 1
+  },
+  {
+    "label": "31 blst: signature uncompress, no subgroup check",
+    "user_cycles": 280144,
+    "segments": 1,
+    "exec_ms": 42.402429,
+    "result": 1
+  },
+  {
+    "label": "32 blst: op 30 plus one combined Miller loop over both pairs",
+    "user_cycles": 5547007,
+    "segments": 6,
+    "exec_ms": 181.325435,
+    "result": 1
+  },
+  {
+    "label": "33 blst: full verify, pre-aggregated minus absent, combined Miller loop",
+    "user_cycles": 10329868,
+    "segments": 11,
+    "exec_ms": 291.284493,
+    "result": 1
+  }
+]
